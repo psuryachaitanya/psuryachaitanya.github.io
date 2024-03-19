@@ -1,5 +1,9 @@
 # main links links
 main:
+
+  - title: "Work Experience"
+    url: /workexp/
+
   - title: "Publications"
     url: /publications/
 
