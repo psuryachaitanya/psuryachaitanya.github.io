@@ -1,0 +1,16 @@
+---
+title: "Scalable and cost-effective serverless architecture for information extraction workflows"
+collection: publications
+permalink: /publication/Serveless-Architecture-DeepReader
+excerpt: 'Information extraction from an image or scanned document is a complex and challenging process since it involves recognizing various visual structures such as tables, boxes, logos, text, charts, etc. Hence, the content extraction applications contain a pipeline of multiple computer vision algorithms, APIs, and models. Deploying such applications for document processing requires a resilient system to deliver high performance. Such applications can be deployed on cloud to leverage the flexible infrastructure and multiple supporting services available there.
+
+In this paper, we discuss a scalable and high performance architecture using a serverless platform for deploying information extraction workflows consisting of multiple APIs and computer vision models. Our experiments show that the use of a serverless platform results in a scalable, cost-effective, and low latency deployment of such workflows. Moreover, we discuss the performance and cost trade-offs while choosing cloud services and their configuration. We also show that the use of workload characterization-based performance and cost models to find the optimal serverless instance configuration results in a significant deployment cost reduction.'
+date: 2022-06-27
+venue: "HiPS '22: Proceedings of the 2nd Workshop on High Performance Serverless Computing"
+paperurl: 'https://doi.org/10.1145/3526060.3535458'
+citation: "Dheeraj Chahal, Surya Chaitanya Palepu, and Rekha Singhal. 2022. Scalable and Cost-effective Serverless Architecture for Information Extraction Workflows. In Proceedings of the 2nd Workshop on High Performance Serverless Computing (HiPS '22). Association for Computing Machinery, New York, NY, USA, 15–23."
+---
+
+Information extraction from an image or scanned document is a complex and challenging process since it involves recognizing various visual structures such as tables, boxes, logos, text, charts, etc. Hence, the content extraction applications contain a pipeline of multiple computer vision algorithms, APIs, and models. Deploying such applications for document processing requires a resilient system to deliver high performance. Such applications can be deployed on cloud to leverage the flexible infrastructure and multiple supporting services available there.
+
+In this paper, we discuss a scalable and high performance architecture using a serverless platform for deploying information extraction workflows consisting of multiple APIs and computer vision models. Our experiments show that the use of a serverless platform results in a scalable, cost-effective, and low latency deployment of such workflows. Moreover, we discuss the performance and cost trade-offs while choosing cloud services and their configuration. We also show that the use of workload characterization-based performance and cost models to find the optimal serverless instance configuration results in a significant deployment cost reduction.
