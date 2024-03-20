@@ -15,6 +15,10 @@
   ul li{
   font-size:16px;
   }
+  em {
+    font-weight: normal;
+    font-size: 14px;
+  }
   a {
     color: darkcyan;
   }
@@ -56,7 +60,6 @@
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ default: "" }}</strong> <time datetime="{{ post.startdate | default: "1900-01-01" | date_to_xmlschema }}">{{ post.startdate | default: "1900-01-01" | date: "%B %Y" }}</time> - <time datetime="{{ post.enddate | default: "1900-01-01" | date_to_xmlschema }}">{{ post.enddate | default: "1900-01-01" | date: "%B %Y" }}</time></p>
           {% endif %}
         </div>
-
         {% if post.excerpt and site.read_more != 'enabled' %}
         <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
         {% elsif post.excerpt and site.read_more == 'enabled' %}
